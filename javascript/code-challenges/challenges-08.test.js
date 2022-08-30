@@ -132,8 +132,7 @@ Write a function named citiesAtoJ that takes in an array of city names and uses 
 const citiesAtoJ = (arr) => {
   const regex = /^[A-J]/;
   return arr.filter(city => regex.test(city));
-  
-};
+  };
 
 /* ------------------------------------------------------------------------------------------------
 CHALLENGE 7 - Stretch Goal
